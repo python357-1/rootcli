@@ -11,7 +11,6 @@ func bounds(target float64, accuracy float64) (float64, float64) {
 }
 
 func main() {
-	operand := flag.Float64("o", 0, "a non-negative number whose root is to be found")
 	root := flag.Int("rt", 1, "a non-negative integer that is the root value (2 = square root, 3 = cube root, etc) ")
 	accuracy := flag.Float64("acc", 1, "a non-negative number which describes how far away the found root may be from the actual root")
 	flag.Parse()
